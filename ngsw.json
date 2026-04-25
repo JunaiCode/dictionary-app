@@ -1,6 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1777135134981,
+  "timestamp": 1777135585637,
+  "appData": {
+    "version": "v2"
+  },
   "index": "https://junaicode.github.io/dictionary-app/index.html",
   "assetGroups": [
     {
