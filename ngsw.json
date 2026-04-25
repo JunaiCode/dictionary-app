@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777134715080,
+  "timestamp": 1777135134981,
   "index": "https://junaicode.github.io/dictionary-app/index.html",
   "assetGroups": [
     {
@@ -39,7 +39,7 @@
     "https://junaicode.github.io/dictionary-app/favicon.ico": "1dfd97439c2dd7939e9c53da7c4cdd003511b377",
     "https://junaicode.github.io/dictionary-app/index.html": "f0c62bb395262087712ca2146d3f6237fbd52216",
     "https://junaicode.github.io/dictionary-app/main-JMLKC4TN.js": "0dcf054d8c0995a1a5f9ade5d68d13d80676d575",
-    "https://junaicode.github.io/dictionary-app/manifest.webmanifest": "e6c29909fe5f9e591717b68a16396e90bdc1b760",
+    "https://junaicode.github.io/dictionary-app/manifest.webmanifest": "c439d24cdb39eb4a1dc64974cb01aa1a7dc803fa",
     "https://junaicode.github.io/dictionary-app/styles-52FAXJ2E.css": "b999cd1b6414621cba0aa235f244ad46546a4931"
   },
   "navigationUrls": [
