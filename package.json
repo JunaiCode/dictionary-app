@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "ng build --configuration production --base-href https://junaiCode.github.io/dictionary-app/ && npx angular-cli-ghpages --dir=dist/dictionary-app",
+    "deploy": "ng build --configuration production --base-href https://junaicode.github.io/dictionary-app/ && npx angular-cli-ghpages --dir=dist/dictionary-app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
