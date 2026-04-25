@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777138448005,
+  "timestamp": 1777138757775,
   "appData": {
     "version": "v3"
   },
@@ -33,7 +33,8 @@
       },
       "urls": [
         "https://junaicode.github.io/dictionary-app/assets/icons/icon-192x192.png",
-        "https://junaicode.github.io/dictionary-app/assets/icons/icon-512x512.png"
+        "https://junaicode.github.io/dictionary-app/assets/icons/icon-512x512.png",
+        "https://junaicode.github.io/dictionary-app/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -42,12 +43,13 @@
   "hashTable": {
     "https://junaicode.github.io/dictionary-app/assets/icons/icon-192x192.png": "0d992107cf3c19234c4a736b8a7bd58e3775d056",
     "https://junaicode.github.io/dictionary-app/assets/icons/icon-512x512.png": "79cc13c62109d0f523409ac699eddcc4766d29b7",
+    "https://junaicode.github.io/dictionary-app/assets/icons/icon-96x96.png": "846be815cfde1b85699832e15f77f24a53016033",
     "https://junaicode.github.io/dictionary-app/chunk-5CAYWQYJ.js": "6a0e854f679b428103c6dbf16d782414667a48d6",
     "https://junaicode.github.io/dictionary-app/chunk-PUTVA3YR.js": "829734868eea7d1abeab40937977b223b91f0d53",
     "https://junaicode.github.io/dictionary-app/favicon.ico": "1dfd97439c2dd7939e9c53da7c4cdd003511b377",
     "https://junaicode.github.io/dictionary-app/index.html": "3ca558dc4027fbb74f7081c12ecc276e8b6e93c9",
     "https://junaicode.github.io/dictionary-app/main-AJNDTZPE.js": "5d269c8b1bf66f35c610a43db19f7b792eaa3fd5",
-    "https://junaicode.github.io/dictionary-app/manifest.webmanifest": "5313a1a584fe3d3200e86eef03ea68441150ee03",
+    "https://junaicode.github.io/dictionary-app/manifest.webmanifest": "4c9173081b8e621cf60f8490512d4ad19bdd3986",
     "https://junaicode.github.io/dictionary-app/styles-52FAXJ2E.css": "b999cd1b6414621cba0aa235f244ad46546a4931"
   },
   "navigationUrls": [
