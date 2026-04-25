@@ -1,0 +1,17 @@
+<div class="flex justify-between items-center border-gray-200 border-b pb-4">
+
+  <div>
+    <h2 class="text-2xl font-bold text-gray-800 capitalize">
+      {{ word.word }}
+    </h2>
+
+    @if (word.phonetic) {
+      <p class="text-indigo-500 mt-1">
+        {{ word.phonetic }}
+      </p>
+    }
+  </div>
+
+  <app-audio-player [audioUrl]="audioUrl"></app-audio-player>
+
+</div>

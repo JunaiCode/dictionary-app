@@ -1,0 +1,9 @@
+@for (word of word; track $index) {
+  <section class="bg-white rounded-2xl shadow-md p-5 mt-4 transition hover:shadow-lg">
+
+    <app-word-header [word]="word"></app-word-header>
+
+    <app-meaning-list [meanings]="word.meanings"></app-meaning-list>
+
+  </section>
+}

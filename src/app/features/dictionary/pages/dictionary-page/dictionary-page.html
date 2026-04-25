@@ -1,0 +1,39 @@
+<div class="min-h-screen bg-gray-50">
+
+  <!-- Sticky Search -->
+  <div class="sticky top-0 z-10 bg-gray-50/90 backdrop-blur-md">
+
+    <div class="px-4 sm:px-6 lg:px-8 py-3">
+      <app-search-bar (search)="onSearch($event)"></app-search-bar>
+    </div>
+
+  </div>
+
+  <!-- Contenido -->
+  <div class="px-4 sm:px-6 lg:px-8">
+
+    <!-- Estados -->
+    <div class="mt-4 text-center text-gray-500">
+
+      @if (!wordData() && !loading() && !error()) {
+        <p class="text-sm">Type a word 👆</p>
+      }
+
+      @if (loading()) {
+        <p class="animate-pulse text-sm">Searching...</p>
+      }
+
+      @if (error()) {
+        <p class="text-red-500 text-sm">Word not found ❌</p>
+      }
+
+    </div>
+
+    <!-- Resultados -->
+    <div class="pb-10">
+      <app-word-result [word]="wordData() ?? []"></app-word-result>
+    </div>
+
+  </div>
+
+</div>
