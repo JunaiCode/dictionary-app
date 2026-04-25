@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777077616920,
+  "timestamp": 1777132427907,
   "index": "https://junaicode.github.io/dictionary-app/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://junaicode.github.io/dictionary-app/chunk-LLZ7RJUC.js",
+        "https://junaicode.github.io/dictionary-app/chunk-3FVKNUQI.js",
         "https://junaicode.github.io/dictionary-app/chunk-NIPWN5TV.js",
         "https://junaicode.github.io/dictionary-app/favicon.ico",
         "https://junaicode.github.io/dictionary-app/index.html",
-        "https://junaicode.github.io/dictionary-app/main-6H365SEO.js",
+        "https://junaicode.github.io/dictionary-app/main-ABQY26ZH.js",
         "https://junaicode.github.io/dictionary-app/manifest.webmanifest",
-        "https://junaicode.github.io/dictionary-app/styles-QJYGUZUN.css"
+        "https://junaicode.github.io/dictionary-app/styles-MHYI246C.css"
       ],
       "patterns": []
     },
@@ -34,13 +34,13 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://junaicode.github.io/dictionary-app/chunk-LLZ7RJUC.js": "536436ce2649404135e0a9c6d079313cb871eed1",
+    "https://junaicode.github.io/dictionary-app/chunk-3FVKNUQI.js": "6556a30fd2c55efad592415815890ed1684e4689",
     "https://junaicode.github.io/dictionary-app/chunk-NIPWN5TV.js": "b2ff8f7e3d0814daa23bda33714c556ef1728d17",
     "https://junaicode.github.io/dictionary-app/favicon.ico": "1dfd97439c2dd7939e9c53da7c4cdd003511b377",
-    "https://junaicode.github.io/dictionary-app/index.html": "01c3d1b10bfab6c84e068d320a88f1abf6518aa6",
-    "https://junaicode.github.io/dictionary-app/main-6H365SEO.js": "f63e481781492ac78e58b51e056974cde61eab16",
+    "https://junaicode.github.io/dictionary-app/index.html": "9f64d235f3f30e0fc631f0a19e778e3e3dbf4d66",
+    "https://junaicode.github.io/dictionary-app/main-ABQY26ZH.js": "10d19e6f8a5c212fad178c82b0b0b4e5bc8007d2",
     "https://junaicode.github.io/dictionary-app/manifest.webmanifest": "c450bd00ee5cfb250811e7bebf156060bfc4bef6",
-    "https://junaicode.github.io/dictionary-app/styles-QJYGUZUN.css": "722f8d14a361405e1d1aea2f344d61c26538de6b"
+    "https://junaicode.github.io/dictionary-app/styles-MHYI246C.css": "4dac1f7a9e0ee255c37a5109a513c1d50ca95d99"
   },
   "navigationUrls": [
     {
