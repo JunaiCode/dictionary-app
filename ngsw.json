@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777137725882,
+  "timestamp": 1777138028502,
   "appData": {
     "version": "v3"
   },
@@ -31,12 +31,19 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+        "https://junaicode.github.io/dictionary-app/assets/icons/icon-192x192.png",
+        "https://junaicode.github.io/dictionary-app/assets/icons/icon-512x512.png",
+        "https://junaicode.github.io/dictionary-app/assets/icons/icon-96x96.png"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://junaicode.github.io/dictionary-app/assets/icons/icon-192x192.png": "0d992107cf3c19234c4a736b8a7bd58e3775d056",
+    "https://junaicode.github.io/dictionary-app/assets/icons/icon-512x512.png": "79cc13c62109d0f523409ac699eddcc4766d29b7",
+    "https://junaicode.github.io/dictionary-app/assets/icons/icon-96x96.png": "846be815cfde1b85699832e15f77f24a53016033",
     "https://junaicode.github.io/dictionary-app/chunk-NTJRH35A.js": "cbe48ed5ae72516b484dcb29b5e5d27fcdd9aeb9",
     "https://junaicode.github.io/dictionary-app/chunk-ZI7Q4SIG.js": "9a1b687ec7083c58771264cccd6d63aeda73f5f3",
     "https://junaicode.github.io/dictionary-app/favicon.ico": "1dfd97439c2dd7939e9c53da7c4cdd003511b377",
