@@ -2,8 +2,8 @@
   "name": "DictionaryApp",
   "short_name": "Dictionary",
   "display": "standalone",
-  "scope": "/dictionary-app/",
-  "start_url": "/dictionary-app/",
+  "scope": "./",
+  "start_url": "./",
   "theme_color": "#4b5563",
   "background_color": "#f9fafb",
   "icons": [
