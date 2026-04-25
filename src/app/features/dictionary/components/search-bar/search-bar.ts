@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, filter, map } from 'rxjs';
 
@@ -12,6 +12,8 @@ import { debounceTime, distinctUntilChanged, filter, map } from 'rxjs';
 export class SearchBar implements OnInit {
 
   searchControl = new FormControl('');
+
+  @ViewChild('searchInput') input!: ElementRef<HTMLInputElement>;
 
   @Output() search = new EventEmitter<string>();
 
@@ -31,5 +33,10 @@ export class SearchBar implements OnInit {
     this.search.emit(value);
     });
 
+  }
+
+  onEnter() {
+    // Close the keyboard on mobile devices after pressing Enter
+    this.input.nativeElement.blur();
   }
 }

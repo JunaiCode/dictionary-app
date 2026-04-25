@@ -4,11 +4,12 @@ import { DictionaryService } from '../../../../core/services/dictionary.service'
 import { Word } from '../../../../core/models/word.model';
 import { SearchBar } from '../../components/search-bar/search-bar';
 import { WordResult } from '../../components/word-result/word-result';
-
+import { Loading } from '../../../../shared/components/loading/loading';
+import { Error } from '../../../../shared/components/error/error';
 @Component({
   selector: 'app-dictionary-page',
   standalone: true,
-  imports: [CommonModule, SearchBar, WordResult],
+  imports: [CommonModule, SearchBar, WordResult, Loading, Error],
   templateUrl: './dictionary-page.html',
   styleUrl: './dictionary-page.css',
   changeDetection: ChangeDetectionStrategy.OnPush

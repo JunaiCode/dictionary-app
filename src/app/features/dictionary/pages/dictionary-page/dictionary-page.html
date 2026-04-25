@@ -16,15 +16,15 @@
     <div class="mt-4 text-center text-gray-500">
 
       @if (!wordData() && !loading() && !error()) {
-        <p class="text-sm">Type a word 👆</p>
+        <p class="text-sm">Type a word to search</p>
       }
 
       @if (loading()) {
-        <p class="animate-pulse text-sm">Searching...</p>
+        <app-loading></app-loading>
       }
 
       @if (error()) {
-        <p class="text-red-500 text-sm">Word not found ❌</p>
+        <app-error></app-error>
       }
 
     </div>

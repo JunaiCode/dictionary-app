@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-error',
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './error.html',
   styleUrl: './error.css',
 })
-export class Error {}
+export class Error {
+  @Input() message: string = 'Upss... the word could not be found :(';
+}
