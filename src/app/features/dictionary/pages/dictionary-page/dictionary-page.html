@@ -1,16 +1,19 @@
 <div class="min-h-screen bg-gray-50">
 
-  <!-- Sticky Search -->
-  <div class="sticky top-0 z-10 bg-gray-50/90 backdrop-blur-md">
-
+  <!-- Search Bar -->
+  <div
+    class="
+      fixed bottom-0 left-0 w-full z-20 bg-gray-50/90 backdrop-blur-md
+      md:sticky md:top-0 md:bottom-auto md:border-t-0
+    "
+  >
     <div class="px-4 sm:px-6 lg:px-8 py-3">
       <app-search-bar (search)="onSearch($event)"></app-search-bar>
     </div>
-
   </div>
 
   <!-- Contenido -->
-  <div class="px-4 sm:px-6 lg:px-8">
+  <div class="px-4 sm:px-6 lg:px-8 pb-24 md:pb-0">
 
     <!-- Estados -->
     <div class="mt-4 text-center text-gray-500">
